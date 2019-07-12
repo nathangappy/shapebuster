@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styling */
+body {
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+}
+
+/* Scoreboard */
+#scoreboard {
+  background: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+#scoreboard h1 {
+  padding: 1rem;
+  font-size: 2rem;
+  align-self: center;
+}
+
+#game-stats {
+  display: flex;
+  align-self: center;
+}
+
+#game-stats p {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Section: Game */
+#game {
+  background: green;
+  height: 92.5vh;
+  width: 100%;
+}
