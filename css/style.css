@@ -12,7 +12,8 @@ body {
 
 /* Scoreboard */
 #scoreboard {
-  background: red;
+  background: #333;
+  color: #fff;
   display: flex;
   justify-content: space-between;
 }
@@ -32,11 +33,35 @@ body {
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
+  align-self: center;
+}
+
+#newgame {
+   font-size: 1.2rem;
+   font-weight: bold;
+   padding: 1rem;
+   margin: 1rem;
+   color: #333;
+   background: #fff;
+   border: none;
+}
+
+#newgame:hover {
+  background: green;
+  color: #fff;
+  cursor: pointer;
 }
 
 /* Section: Game */
 #game {
-  background: green;
   height: 92.5vh;
   width: 100%;
+}
+
+/* Shapes */
+.square {
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  background: red;
 }
