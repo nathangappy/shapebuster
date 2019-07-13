@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* General Styling */
@@ -54,13 +55,15 @@ body {
 
 /* Section: Game */
 #game {
-  height: 92.5vh;
+  height: 90.5vh;
   width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 /* Shapes */
 .square {
-  position: fixed;
+  position: absolute;
   height: 100px;
   width: 100px;
   background: red;
