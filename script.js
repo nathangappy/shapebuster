@@ -25,12 +25,6 @@ gameController.gameReset = () => {
     $('#game .square').css('display', 'none');
 }
 
-// // remove box function
-// gameController.boxRemoval = () => {
-
-//     gameController.boxesInGame[0]
-// }
-
 // Box Creation Object
 let boxCreator = {}
 
@@ -61,7 +55,7 @@ boxCreator.createBoxes = () => {
         })
         // place boxes to in game box array
         gameController.boxesInGame.push(boxes[randomBox]);
-    }, 1000);
+    }, 500);
 }
 
 // random box color function

@@ -1,3 +1,27 @@
-* {
-  display: none;
+#scoreboard h1 {
+  padding: 0.5rem;
+  font-size: 1rem;
+  align-self: center;
+}
+
+#game-stats p {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  align-self: center;
+}
+
+#newgame {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: #333;
+  background: #fff;
+  border: none;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
 }
